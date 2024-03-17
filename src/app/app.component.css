@@ -29,7 +29,6 @@
 }
 
 .horizontal-line {
-    position: relative;
     margin-top: 20px;
     height: 5px;
     background-color: green;
@@ -37,7 +36,7 @@
 
 .vertical-line {
     position: relative;
-    border-right: 5px solid green; 
+    border-right: 4px solid green; 
     height: 500px;
     right: 28%;
     bottom: 0%; 
@@ -47,6 +46,7 @@
     position: absolute;
     top: 25%;
     color: green;
+    margin-left: 16px;
 }
 
 .date{
@@ -72,8 +72,32 @@
 
 .total-amount{
     position: absolute;
-    top: 85%;
+    top: 83%;
     color: green;
     left: 62.5%;
     font-weight: bold;
+}
+
+.bottom-horizontal-line {
+    margin-top: 1px;
+    height: 4px;
+    background-color: green;
+}
+
+.left-vertical-line{
+    border-left: 4px solid green;
+    height: 640px;
+    margin-top: -640px;
+}
+
+.right-vertical-line{
+    border-right: 4px solid green;
+    height: 640px;
+    margin-top: -640px;
+}
+
+.top-vertical-line{
+  border-top: 4px solid green; 
+  width: 100%; 
+  margin-top: -640px;
 }
