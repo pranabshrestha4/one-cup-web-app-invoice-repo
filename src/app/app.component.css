@@ -36,9 +36,44 @@
 }
 
 .vertical-line {
+    position: relative;
     border-right: 5px solid green; 
     height: 500px;
-    position: relative;
     right: 28%;
     bottom: 0%; 
+}
+
+.business-name{
+    position: absolute;
+    top: 25%;
+    color: green;
+}
+
+.date{
+    position: absolute;
+    top: 25%;
+    color: green;
+    left: 45%;
+}
+
+.amount-before-deduction{
+    position: absolute;
+    top: 40%;
+    color: green;
+    left: 62.5%;
+}
+
+.application-fee{
+    position: absolute;
+    top: 50%;
+    color: green;
+    left: 62.5%;
+}
+
+.total-amount{
+    position: absolute;
+    top: 85%;
+    color: green;
+    left: 62.5%;
+    font-weight: bold;
 }
