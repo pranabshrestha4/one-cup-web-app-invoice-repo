@@ -1,0 +1,44 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: grid;
+}
+
+.invoice-header{
+    position: absolute;
+    margin-top: -10px;
+    left: 48%;
+    transform: translate(-48%);
+}
+
+.invoice-header h2{
+    color: green;
+}
+
+.address{
+    position: absolute;
+    left: 63%;
+}
+
+.address p{
+    font-size: 12px;
+    color: green;
+}
+
+.horizontal-line {
+    position: relative;
+    margin-top: 20px;
+    height: 5px;
+    background-color: green;
+}
+
+.vertical-line {
+    border-right: 5px solid green; 
+    height: 500px;
+    position: relative;
+    right: 28%;
+    bottom: 0%; 
+}
